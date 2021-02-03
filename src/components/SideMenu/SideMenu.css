@@ -1,0 +1,63 @@
+.navBar {
+  padding: 10px 10px 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.side-menu-container {
+  margin: 0;
+  padding: 0;
+}
+
+.logo {
+  padding: 1rem 0.8rem;
+}
+
+.logo svg {
+  max-width: 130px;
+}
+
+.logo svg  p {
+  fill: white;
+}
+
+.side-menu-container {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.side-menu-container li {
+  color: #b3b3b3;
+  text-decoration: none;
+  list-style-type: none;
+  border-radius: 5px;
+  padding: 0.5rem 0.8rem;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  font-family: circular-bold;
+  display: flex;
+  align-items: center;  
+  font-weight: 700;
+}
+
+.side-menu-container li svg {
+  fill: currentColor;
+  margin-right: 15px;
+}
+
+@font-face {
+  font-family: circular-book;
+  src: url(../../assets/fonts/CircularStd-Book.otf);
+}
+
+@font-face {
+  font-family: circular-bold;
+  src: url(../../assets/fonts/CircularStd-Bold.otf);
+}
+
+@font-face {
+  font-family: circular-black;
+  src: url(../../assets/fonts/CircularStd-Black.otf);
+}

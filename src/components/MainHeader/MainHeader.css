@@ -1,0 +1,133 @@
+.main-section-contaainer {
+  background-color: rgb(214, 214, 214);
+}
+.section-title {
+  text-align: center;
+  padding: 1.5rem 1.5rem;
+  display: flex;
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(rgba(0, 0, 0, 0.5)),
+    color-stop(40%, #121212)
+  );
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), #121212 40%);
+}
+
+.browse-headers {
+  display: flex;
+}
+
+.browse-headers p {
+  color: rgb(179, 179, 179);
+  font-size: 14px;
+  text-transform: uppercase;
+  font-family: 'Proxima Thin', Georgia, sans-serif;
+  letter-spacing: 1px;
+  margin: 0 20px;
+  cursor: pointer;
+}
+
+.browse-headers p:first-child {
+  margin: 0 20px 0 0;
+}
+
+.browse-headers p:hover {
+  color: #fff;
+}
+
+.playlist-title-container {
+  text-align: center;
+  padding: 1.5rem 0;
+  display: flex;
+}
+
+.playlist-image-container {
+  width: 250px;
+  height: 250px;
+}
+.playlist-image {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  box-shadow: 0 4px 60px rgba(0, 0, 0, 0.5);
+}
+
+.playlist-info-container {
+  text-align: left;
+  padding: 1.5rem 2rem;
+}
+
+.created-by {
+  display: flex;
+  align-items: center;
+  font-size: 0.9rem;
+}
+
+.lighter-text {
+    opacity: 0.7;
+    position: relative;
+    padding-left: 20px;
+}
+
+.lighter-text:before {
+  content: '';
+  width: 4px;
+  height: 4px;
+  background: white;
+  border-radius: 50%;
+  position: absolute;
+  margin-left: -10px;
+  top: 9px;
+}
+
+.playlist-text {
+  font-weight: 600;
+  font-size: 0.75rem;
+  letter-spacing: 0.8px;
+}
+
+
+
+.browse-headers .active {
+  position: relative;
+}
+
+.browse-headers .active:after {
+  content: "";
+  position: absolute;
+  width: 35px;
+  left: 50%;
+  top: 22px;
+  border-bottom: 2px solid #1db954;
+  transform: translate(-50%, -50%);
+}
+
+.current-artist-header-container {
+	display: flex;
+}
+
+.current-artist-image {
+	width: 180px;
+	height: 180px;
+	border-radius: 50%;
+}
+
+.current-artist-info {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding-left: 20px;
+}
+
+.current-artist-info p {
+	text-transform: uppercase;
+	font-family: 'Proxima Thin', Georgia, sans-serif;
+	font-size: 13px;
+}
+
+.artist-button {
+	margin-top: 20px;
+	margin-left: 40px;
+}
